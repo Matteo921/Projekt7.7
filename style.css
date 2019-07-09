@@ -271,15 +271,55 @@ h2:hover{
     color: #c2c200;
     border: 3px solid #c2c200;
     border-radius: 50%;
+
 }
-.container > .fas{
-      text-align: center;
+.icon{
+    text-align: center;
 }
 /* Section 3 */
+.portfoliobox{
+    background-color: #FFFFCC;
+
+}
 .text3{
     text-align: center;
     margin-top: 100px;
 }
 .text3 > h1{
     font-weight: bold;
+}
+.galleryphoto{
+    width: 100%;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery-item{
+    position: relative;
+    background-color: #FFFFCC;
+}
+.gallerytext{
+    text-align:center;
+}
+/*section 4*/
+.news{
+    margin-top: 100px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nth-child(even){
+    flex-direction: row-reverse;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.newstext{
+    display: inline-block;
 }
