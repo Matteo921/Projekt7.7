@@ -192,6 +192,7 @@ clearfix {
 .col-offset-12 {
     margin-left: 100%;
 }
+
 body {
 	margin: 0px auto; 
     max-width: 2000px;
@@ -201,6 +202,17 @@ header{
     min-height: 900px;
     opacity: 0.9;
 }
+/*Text */
+h3{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+.sectiontext{
+    text-align: center;
+}
+/* End Text*/
 .logopic{
     width: 100px;
     height: 100px;
@@ -249,13 +261,7 @@ h2:hover{
     color:red;
 }
 /*Section 2 */
-.signature {
-    text-align: center;
-    margin-top: 100px;
-}
-.signature > h1{
-    font-weight: bold;
-}
+
 .icontext{
     font-size: 30px;
     text-align: center;
@@ -279,15 +285,8 @@ h2:hover{
 /* Section 3 */
 .portfoliobox{
     background-color: #FFFFCC;
+}
 
-}
-.text3{
-    text-align: center;
-    margin-top: 100px;
-}
-.text3 > h1{
-    font-weight: bold;
-}
 .galleryphoto{
     width: 100%;
     display: block;
@@ -302,15 +301,15 @@ h2:hover{
     text-align:center;
 }
 /*section 4*/
-.news{
-    margin-top: 100px;
+.circle-container{
+    width: 700px;
 }
 .item{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-nth-child(even){
+:nth-child(odd){
     flex-direction: row-reverse;
 }
 .circle{
@@ -320,6 +319,7 @@ nth-child(even){
     border-radius: 50%;
     border: 3px solid red;
 }
+
 .newstext{
     display: inline-block;
 }
