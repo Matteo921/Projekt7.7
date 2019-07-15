@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,15 +13,14 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="style.css" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <header class="header">
-        <!--Nagłówek-->
         <nav class="container">
-            <img class="logopic" src="https://i.ibb.co/QrTy20w/twitter-profile-image.png" alt="logo">
+            <img src="https://i.ibb.co/mBD2TCq/logo.png" alt="logo">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">SERVICE</a></li>
@@ -48,7 +47,7 @@
                     <div class="col-4 col-m-6 col-s-12   ">
                         <hr style="width: 80%;">
                         <div class="icon">
-                            <i class="fas fa-laptop-code"></i>
+                            <i class="fas fa-laptop-code fristicon"></i>
                             <h2 class="icontext">E-Commerce</h2>
                             <p class="maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus ante, accumsan ac arcu sit amet, sagittis lobortis neque. Phasellus.</p>
                         </div>
@@ -56,7 +55,7 @@
                     <div class="col-4 col-m-6 col-s-12 ">
                         <hr style="width: 80%;">
                         <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-mobile-alt fristicon"></i>
                             <h2 class="icontext">Responsive Page</h2>
                             <p class="maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus ante, accumsan ac arcu sit amet, sagittis lobortis neque. Phasellus.</p>
                         </div>
@@ -64,7 +63,7 @@
                     <div class="col-4 col-m-6 col-s-12 ">
                         <hr style="width: 80%;">
                         <div class="icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-shield-alt fristicon"></i>
                             <h2 class="icontext">Web Security</h2>
                             <p class="maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus ante, accumsan ac arcu sit amet, sagittis lobortis neque. Phasellus.</p>
                         </div>
@@ -208,25 +207,31 @@
 				<img  class="teamphoto" src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
 					<p class="name">Mark Asida</p>
 					<p>Project Manager</p>
-					<a href="#"><i class="fab fa-twitter team-icon"></i></a>
-					<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
-					<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					<div class="icon-box">
+						<a href="#"><i class="fab fa-twitter team-icon"></i></a>
+						<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
+						<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					</div>
 			</div>
 			<div class="flex-item">
 				<img class="teamphoto" src="https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
 					<p class="name">Mary Lambo</p>
 					<p>Programer</p>
-					<a href="#"><i class="fab fa-twitter team-icon"></i></a>
-					<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
-					<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					<div class="icon-box">
+						<a href="#"><i class="fab fa-twitter team-icon"></i></a>
+						<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
+						<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+				</div>
 			</div>
 			<div class="flex-item">
 				<img class="teamphoto" src="https://images.pexels.com/photos/206445/pexels-photo-206445.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
 					<p class="name">Kate Ramen</p>
 					<p>Graphic</p>
-					<a href="#"><i class="fab fa-twitter team-icon"></i></a>
-					<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
-					<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					<div class="icon-box">
+						<a href="#"><i class="fab fa-twitter team-icon"></i></a>
+						<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
+						<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					</div>
 			</div>
 		</div>
 
@@ -234,21 +239,55 @@
 <!--Section 6-->
 </section>
 <section class="companylogo">
-	<div class="flex-container2 clearfix">
-		<div class="flex-item">
-			<a href="https://evato.be/over-evato/"><img class="logo" src="http://szymerskitravel.pl/wp-content/uploads/2014/02/envato.png" alt=""></a>
-		</div>
-		<div class="flex-item">
-			 <a href="https://pl.wordpress.org/"><img class="logo" src="https://s.w.org/style/images/about/WordPress-logotype-standard.png" alt=""></a>
-		</div>
-		<div class="flex-item">
-			<a href="https://www.notion.so/"><img class="logo" src="http://www.notion-lab.de/assets/logo-dark.png" alt=""></a>
-		</div>
-		<div class="flex-item">
-			<a href="https://microlancer.io/"><img class="logo" src="http://szymerskitravel.pl/wp-content/uploads/2014/02/microlancer.png" alt=""></a>
-		</div>
+	<div class="logobox">
+		
+			<a href="https://evato.be/over-evato/"><img class="logobrand" src="http://szymerskitravel.pl/wp-content/uploads/2014/02/envato.png" alt=""></a>
+			<a href="https://pl.wordpress.org/"><img class="logobrand" src="https://s.w.org/style/images/about/WordPress-logotype-standard.png" alt=""></a>
+			<a href="https://www.notion.so/"><img class="logobrand" src="http://www.notion-lab.de/assets/logo-dark.png" alt=""></a>
+			<a href="https://microlancer.io/"><img class="logobrand" src="http://szymerskitravel.pl/wp-content/uploads/2014/02/microlancer.png" alt=""></a>
+	</div>
+
+</section>
+<!--Section 7-->
+<section>
+	<div class="contactbox">
+		<h3 class="contactheader">CONTACT</h3>
+		<p>Lorem ipsum dolor sit amet.</p>
+		<div class="contactbox row clearfix">
+              <div class= "col-m-6 col-s-12 forms">
+                <form action = "/cgi-bin/hello_get.cgi" method = "get">  
+                  <input type="text" placeholder="YOUR NAME*"></input>
+                  <input type="text" placeholder="YOUR E-MAIL*"></input>
+                  <input type="text" placeholder="SUBJECT"></input>
+                </form>
+              </div>
+              <div class= "col-m-6 col-s-12 forms">
+                <form action = "/cgi-bin/hello_get.cgi" method = "get">  
+                  <textarea placeholder="YOUR MESSAGE*" rows="9" cols="50"></textarea>
+                </form>   
+              </div>
+            </div>
+            <div class="button">
+            <button type="button" class="btn btn-warning btn-lg">Tell me more</button>
+            </div>
 		
 	</div>
+<section class= "footer container">
+		<div class= "row clearfix">
+			<div class= "col-m-6 col-s-12 copy">
+				<p class= "copy">&copy Copyright 2019</p>
+			</div>
+			<div class= "col-m-6 col-s-12">
+				<p>
+					<a href="#"><i class="fab fa-twitter team-icon"></i></a>
+					<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
+					<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
+					<a href="#"><i class="fab fa-glide-g team-icon"></i></a> 
+				</p>
+			</div>
+		</div>
+    </section>
+
 </section>
 <!-- SCRIPTS -->
 <!-- JQuery -->
