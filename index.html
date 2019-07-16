@@ -22,28 +22,26 @@
         <nav class="container">
             <img src="https://i.ibb.co/mBD2TCq/logo.png" alt="logo">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a class="menutext" href="#">HOME</a></li>
+                <li><a class="menutext" href="#">SERVICE</a></li>
+                <li><a class="menutext" href="#">PORTFOLIO</a></li>
+                <li><a class="menutext" href="#">ABOUT</a></li>
+                <li><a class="menutext" href="#">CONTACT</a></li>
             </ul>
             <div class="slogan">
-                <h1 class="text">Welcome To Our Studio!</h1>
-                <h2 class="text">IT'S NICE TO MEET YOU</h2>
+                <h1 class="slogantext">Welcome To Our Studio!</h1>
+                <h2 class="slogantext">IT'S NICE TO MEET YOU</h2>
                 <button type="button" class="btn-lg btn-warning">TELL ME MORE</button>
             </div>
         </nav>
     </header>
-    <!--Font Section-->
-    <div class="container">
-
-        <h3>SERVICES</h3>
-        <p class="sectiontext">Proin iaculicpurus consequat sem cure.</p>
-
-        <div>
-            <section class="two">
-                <div class="container row ">
+    <!-- Section two-->
+    <div class="servicecontainer ">
+    	<div class="headertext">
+	        <h3>SERVICES</h3>
+	        <p class="sectiontext">Proin iaculicpurus consequat sem cure.</p>
+        </div>
+                <div class="container ">
                     <div class="col-4 col-m-6 col-s-12   ">
                         <hr style="width: 80%;">
                         <div class="icon">
@@ -69,17 +67,15 @@
                         </div>
                     </div>
                 </div>
-            </section>
         </div>
-    </div>
 
     <!--Section 3 -->
     <section class="mainbox">
         <div class="container portfoliobox">
-
-            <h3>OUR PORTFOLIO</h3>
-            <p class="sectiontext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+        	<div class="headertext">
+	            <h3>OUR PORTFOLIO</h3>
+	            <p class="sectiontext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
             <div class="col-4 col-m-4 col-s-12 gallery-item">
                 <figure class="gallery">
                     <img class="galleryphoto" src="https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Trulli">
@@ -136,9 +132,9 @@
             </div>
         </div>
     </section>
-    <!--section 4-->
-    <div class="container">
-        <div class="blognewstext">
+<!--section 4-->
+    <div class="container clearfix">
+        <div class="headertext">
             <h3>About Us</h3>
             <p class="sectiontext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -198,7 +194,7 @@
 <!--Section 5-->
 <section class="team">
 	<div class="container">
-		<div>
+		<div class="headertext">
 			<h3>OUR AMAZING TEAM</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
@@ -251,14 +247,16 @@
 <!--Section 7-->
 <section>
 	<div class="contactbox">
-		<h3 class="contactheader">CONTACT</h3>
-		<p>Lorem ipsum dolor sit amet.</p>
+		<div class="headertext">
+			<h3 class="contactheader">CONTACT</h3>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</div>
 		<div class="contactbox row clearfix">
               <div class= "col-m-6 col-s-12 forms">
                 <form action = "/cgi-bin/hello_get.cgi" method = "get">  
-                  <input type="text" placeholder="YOUR NAME*"></input>
-                  <input type="text" placeholder="YOUR E-MAIL*"></input>
-                  <input type="text" placeholder="SUBJECT"></input>
+                  <input type="text" placeholder="YOUR NAME*">Your Name</input>
+                  <input type="text" placeholder="YOUR E-MAIL*">E-MAIL</input>
+                  <input type="text" placeholder="SUBJECT">SUBJECT</input>
                 </form>
               </div>
               <div class= "col-m-6 col-s-12 forms">
@@ -267,7 +265,7 @@
                 </form>   
               </div>
             </div>
-            <div class="button">
+            <div class="button2">
             <button type="button" class="btn btn-warning btn-lg">Tell me more</button>
             </div>
 		
@@ -278,7 +276,7 @@
 				<p class= "copy">&copy Copyright 2019</p>
 			</div>
 			<div class= "col-m-6 col-s-12">
-				<p>
+				<p class="foticon">
 					<a href="#"><i class="fab fa-twitter team-icon"></i></a>
 					<a href="#"><i class="fab fa-facebook-f team-icon"></i></a>
 					<a href="#"><i class="fab fa-pinterest-p team-icon"></i></a>
@@ -288,7 +286,7 @@
 		</div>
     </section>
 
-</section>
+
 <!-- SCRIPTS -->
 <!-- JQuery -->
 
