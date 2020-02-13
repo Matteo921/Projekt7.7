@@ -1,0 +1,68 @@
+input {
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: 50px;
+        border-radius: 5px;
+        &:focus {
+            background-color: #fffdd0; 
+            color: black;
+        }
+    }
+  
+  form {
+    margin: 0 10px;
+  }
+    
+    textarea {
+        border-radius: 5px;
+        font-size: 14px;
+        &:focus {
+            background-color: #fffdd0; 
+            color: black;
+        }
+    }
+  
+    .button {
+      
+        a {
+            border-radius: 10px;
+            background-color:$hd-color; 
+            text-transform: uppercase;
+            font-weight: 700px;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-decoration: none;
+            color: $font-color;
+            transition-duration: 1.5s;
+            &:hover {
+                color:$hd-color;
+                background-color:$font-color;
+            }
+        }
+    }   
+}
+.footer {
+  
+  a {
+   text-decoration: none; 
+    color: black;
+    .team-icon {
+        transition-duration: 1s;
+        &:hover {
+            transform: scale(1.2);
+            z-index: 0;
+            cursor: pointer;
+            background-color: $hd-color;
+            color: $font-color;
+            border-color: $font-color;
+        }
+      }
+    }
+      
+      p {
+        padding-bottom: 0px;
+      }
+      .copy {
+        padding-top: 20px;
+      }
+ 
+}  
